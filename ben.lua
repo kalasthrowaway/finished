@@ -1,2 +1,2 @@
 local client = game.Players.LocalPlayer
-print("Hello, " .. client.Name .. "!")
+print(("Hello, %s!"):format(client.Name))
